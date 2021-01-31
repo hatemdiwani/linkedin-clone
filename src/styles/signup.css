@@ -1,0 +1,97 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.signup > img {
+  height: 36px;
+}
+
+.signup > p {
+  font-size: 33px;
+  margin-top: 20px;
+}
+
+.register-form {
+  background-color: white;
+  margin-top: 20px;
+  max-width: 370px;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px 0 rgba(245, 242, 242, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-form > div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.register-form > div > input {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.terms-and-conditions {
+  margin-top: 15px;
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.terms-and-conditions > a {
+  color: rgb(9, 65, 138);
+}
+.terms-and-conditions > a:link {
+  text-decoration: none;
+}
+
+.terms-and-conditions > a:hover {
+  text-decoration: underline;
+}
+
+.register-button {
+  background-color: rgb(30, 105, 202);
+  color: white;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.register-button:hover {
+  background-color: rgb(19, 90, 182);
+}
+
+.google-singup {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  border: 1px solid rgb(30, 105, 202);
+  border-radius: 30px;
+}
+.google-singup:hover {
+  background-color: rgb(209, 229, 241);
+  border: 1px solid rgb(30, 105, 202);
+}
+
+.google-singup > button {
+  height: 40px;
+  background: none;
+  outline: none;
+  border: none;
+}
+.icon {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.registred {
+  margin-top: 15px;
+  text-align: center;
+}
